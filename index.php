@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avaliação</title>
+
+	<style>
+		br{
+			margin-top: 10px;
+		}
+		h1 {
+			  color: white;
+			  background-color: ;
+			  text-align: left;
+			  font-family: segoe ui ;
+			  font-size: 30px;
+			}
+		h2{
+			color: black;
+			background-color: ;
+			text-align: left;
+			font-family: segoe ui ;
+			font-size: 20px;
+
+		}
+
+		h3{
+			color: black;
+			background-color: ;
+			text-align: left;
+			font-family: segoe ui ;
+			font-size: 15px;
+		}
+		#HEADER{
+			  color: white;
+			  width: 100%;
+			  margin-left: -8px;
+			  margin-top: -8px;
+			  margin-right: -8px;
+			  padding-right:8px;
+			  padding-top:8px;
+			  padding-left:8px;
+			  padding-bottom: 8px;
+			  background-color: #0d6da8;
+			  align-items: left;
+			  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 9px 20px 0 rgba(0,0,0,0.19);
+
+			}
+		.esp{
+			margin-right: 50px;
+		}
+
+		#x{
+			margin-right: 10px;
+			margin-top: -10px;
+			height:4%;
+			width:4%;
+		}
+		.button2 {
+			margin-top: 80px;
+		padding: 16px 32px;
+		text-align: center;
+		font-size: 16px;
+  		background-color: white; 
+  		color: black; 
+  		border: 2px solid #008CBA;
+  		transition-duration: 0.4s;
+		}
+
+		.button2:hover {
+  		background-color: #008CBA;
+  		color: white;
+		}
+
+		#opn{
+			margin-top: 20px;
+			padding: 70px;
+
+		}
+		p{
+			font-size: 18px;
+		}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="icon" href="azure.png">
+</head>
+<body>
+
+<div id="HEADER">
+ 	<h1 style="margin-left:10px ;"> Microsoft
+ 		<a href="https://portal.azure.com/">
+ 			<img id="x" align="right"  src="azure.png" alt="logo da azure" >
+ 		<a>
+ 	</h1>
+</div>
+<div >
+
+		
+</div><br>
+<div align="center">
+	<form method="POST" action="verifica.php">
+	  	<p>Você entendeu o que são os hypervisor?</p>
+
+		
+	  	<input type="radio" id="aval1" name="aval1" value="2">
+		<label for="1" class="esp">sim</label>
+	 	
+	 	<input type="radio" id="aval1" name="aval1" value="1">
+		<label for="2" class="esp">não</label><br>
+	 	<br>
+	 	<br>
+	 	<br>
+	 	<p>Você entendeu o conceito de cloud?</p>
+	 	
+	 	<input type="radio" id="aval2" name="aval2" value="2">
+		<label for="1" class="esp">sim</label>
+	 	<input type="radio" id="aval2" name="aval2" value="1">
+		<label for="2" class="esp">não</label><br>
+		<br>
+	 	<br>
+	 	<br>
+	 	<p>Você aprendeu o que é um datacenter?</p>
+		
+	 	<input type="radio" id="aval3" name="aval3" value="2">
+		<label for="1" class="esp">sim</label>
+	 	<input type="radio" id="aval3" name="aval3" value="1">
+		<label for="2" class="esp">não</label><br>
+		<br>
+	 	<br>
+	 	<br>
+		<p>Você conseguiu entender o que é o Azure?</p>	
+	 	<input type="radio" id="aval4" name="aval4" value="2">
+		<label for="1" class="esp">sim</label>
+	 	<input type="radio" id="aval4" name="aval4" value="1">
+		<label for="2" class="esp">não</label><br>
+		<br>
+	 	<br>
+	 	<br>
+		<p>Você aprendeu para que serve o software terraform?</p>
+	 	<input type="radio" id="aval5" name="aval5" value="2">
+		<label for="1" class="esp">sim</label>
+	 	<input type="radio" id="aval5" name="aval5" value="1">
+		<label for="2" class="esp">não</label><br>
+		<br>
+	 	<br>
+	 	<br>
+		<p>Caso você criasse uma empresa, utilizaria o azure como uma possível solução?</p>
+	 	<input type="radio" id="aval6" name="aval6" value="2">
+		<label for="1" class="esp">sim</label>
+	 	<input type="radio" id="aval6" name="aval6" value="1">
+		<label for="2" class="esp">não</label><br>
+
+
+		<br><br>
+		<h3 style="text-align: center;">Nos dê sua opinião</h3>
+	 	
+	 	<input type="text" id="opn" name="opn" ><br><br>
+	 	<label for="opn" id="opn">
+	  	
+	  	<input type="submit" value="Enviar" name="envia" id="envia" class="button2">
+	  	<label for="envia" id="envia"></label>
+	</form> 
+</label>
+
+</body>
+</html>
